@@ -24,6 +24,16 @@ function App() {
             ml('account', '1982575');
           `}
         </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9BFP7YKCT7"></script>
+        <script>
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-9BFP7YKCT7');
+          `}
+        </script>
       </Helmet>
       <div className="min-h-screen bg-[#262219] relative overflow-hidden">
         <div className="film-grain"></div>
