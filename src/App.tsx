@@ -59,35 +59,10 @@ function App() {
                 </h2>
 
                 <p className="font-sans text-[#8f8577] text-sm md:text-base font-light leading-relaxed max-w-md mx-auto opacity-85">
-                  A free 3-page guide for men who want to reconnect with their
-                  body and their presence.
+                  A free 8-page guide for men who want a simple system to build body and presence.
                 </p>
               </div>
               <div className="ml-embedded" data-form="CY75S1"></div>
-
-              {/* <ConvertKitForm
-                formId="8872287"
-                hideName={true}
-                submitText="Get Free Access"
-                emailPlaceholder="Email"
-              /> */}
-              {/* <form onSubmit={handleSubmit} className="space-y-5 max-w-md mx-auto pt-4">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="your@email.com"
-                  required
-                  className="w-full bg-[#1a1713] border border-[#3d3933] border-opacity-40 text-[#faf7f2] placeholder-[#6b6558] placeholder-opacity-50 px-6 py-4 font-sans text-sm focus:outline-none focus:border-opacity-60 transition-all duration-300"
-                />
-
-                <button
-                  type="submit"
-                  className="w-full bg-[#333029] hover:bg-[#3d3933] text-[#faf7f2] font-sans text-sm font-normal py-4 px-8 tracking-wide transition-all duration-500 border border-[#4a4640] border-opacity-20 opacity-80 hover:opacity-90"
-                >
-                  {submitted ? 'Received' : 'Get Free Access'}
-                </button>
-              </form> */}
             </div>
           </div>
         </div>
