@@ -19,39 +19,11 @@
   }
 }
 
-.film-grain {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  opacity: 0.04;
-  z-index: 1;
-  background-image: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 0.1) 1px,
-    transparent 1px
-  );
-  background-size: 50px 50px, 80px 80px;
-  background-position: 0 0, 25px 25px;
-  animation: filmShift 12s ease-in-out infinite;
-}
-
-@keyframes filmShift {
-  0%,
-  100% {
-    opacity: 0.04;
-  }
-  50% {
-    opacity: 0.06;
-  }
-}
-
 #mlb2-34623653.ml-form-embedContainer .ml-form-embedWrapper {
-  background-color: rgb(26 23 19 / 0.5) !important;
-
-  backdrop-filter: blur(4px) !important;
+  background-color: #ffffff !important;
+  border: 1px solid rgb(13 12 10 / 0.08) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 20px 60px -30px rgb(0 0 0 / 0.25) !important;
 }
 
 #mlb2-34623653.ml-form-embedContainer
@@ -60,8 +32,8 @@
   .ml-form-embedPermissions
   .ml-form-embedPermissionsOptionsCheckbox
   .label-description {
-  color: #8f8576 !important;
-  font-size: 0.8rem !important;
+  color: #0d0c0a !important;
+  font-size: 0.85rem !important;
 }
 
 #mlb2-34623653.ml-form-embedContainer
@@ -70,8 +42,8 @@
   .ml-form-embedPermissions
   .ml-form-embedMailerLite-GDPR
   p {
-  color: #8f8576 !important;
-  font-size: 0.8rem !important;
+  color: #0d0c0a !important;
+  font-size: 0.85rem !important;
 }
 
 #mlb2-34623653.ml-form-embedContainer
@@ -84,12 +56,12 @@
   .ml-form-successBody
   .ml-form-successContent
   p {
-  color: #8f8576 !important;
+  color: #0d0c0a !important;
 }
 
 .rc-anchor-light {
-  background: rgb(26 23 19 / 0.5) !important;
-  color: #8f8576;
+  background: #f2f1ed !important;
+  color: #0d0c0a !important;
 }
 
 form[action^="https://app.convertkit"]
@@ -101,26 +73,26 @@ form[action^="https://app.convertkit"]
 
 form[action^="https://app.convertkit"] input
 {
-  background: #1a1713;
-  border: 1px solid#3d3933;
-  color: #faf7f2;
+  background: #f2f1ed;
+  border: 1px solid rgb(13 12 10 / 0.12);
+  color: #0d0c0a;
   padding: 0.5rem 0.75rem;
 }
 
 form[action^="https://app.convertkit"] input::placeholder
 {
-  color: #faf7f2;
-  opacity: 0.8;
+  color: #0d0c0a;
+  opacity: 0.5;
 }
 
 form[action^="https://app.convertkit"] button
 {
-  background: #333029;
-  color: #faf7f2;
+  background: #0d0c0a;
+  color: #f7f7f4;
   padding: 0.5rem 1rem;
 }
 
 form[action^="https://app.convertkit"] button:hover
 {
-  background: #3d3933;
+  background: #2b2925;
 }

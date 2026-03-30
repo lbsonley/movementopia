@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .font-serif {
+    font-family: "Cormorant Garamond", "Garamond", "Georgia", serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-sans {
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+  }
+}
+
+#mlb2-34623653.ml-form-embedContainer .ml-form-embedWrapper {
+  background-color: #ffffff !important;
+  border: 1px solid rgb(13 12 10 / 0.08) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 20px 60px -30px rgb(0 0 0 / 0.25) !important;
+}
+
+#mlb2-34623653.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedPermissionsOptionsCheckbox
+  .label-description {
+  color: #0d0c0a !important;
+  font-size: 0.85rem !important;
+}
+
+#mlb2-34623653.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-embedBody
+  .ml-form-embedPermissions
+  .ml-form-embedMailerLite-GDPR
+  p {
+  color: #0d0c0a !important;
+  font-size: 0.85rem !important;
+}
+
+#mlb2-34623653.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  h4,
+#mlb2-34623653.ml-form-embedContainer
+  .ml-form-embedWrapper
+  .ml-form-successBody
+  .ml-form-successContent
+  p {
+  color: #0d0c0a !important;
+}
+
+.rc-anchor-light {
+  background: #f2f1ed !important;
+  color: #0d0c0a !important;
+}
+
+form[action^="https://app.convertkit"] {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form[action^="https://app.convertkit"] input {
+  background: #f2f1ed;
+  border: 1px solid rgb(13 12 10 / 0.12);
+  color: #0d0c0a;
+  padding: 0.5rem 0.75rem;
+}
+
+form[action^="https://app.convertkit"] input::placeholder {
+  color: #0d0c0a;
+  opacity: 0.5;
+}
+
+form[action^="https://app.convertkit"] button {
+  background: #0d0c0a;
+  color: #f7f7f4;
+  padding: 0.5rem 1rem;
+}
+
+form[action^="https://app.convertkit"] button:hover {
+  background: #2b2925;
+}
+
